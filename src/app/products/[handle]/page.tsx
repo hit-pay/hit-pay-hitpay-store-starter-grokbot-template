@@ -5,6 +5,7 @@ import { storeConfig } from "@root/store.config";
 import { AddToCart } from "@/components/add-to-cart";
 import { getCatalog, getProductByHandle } from "@/lib/catalog";
 import { siteUrl } from "@/lib/env";
+import { currencyDigits } from "@/lib/money";
 import { pageMetadata } from "@/lib/seo";
 
 /** Placeholder so the route still builds when the catalogue is empty. */
@@ -50,7 +51,7 @@ export default async function ProductPage({ params }: PageProps<"/products/[hand
       "@type": "Offer",
       url,
       priceCurrency: product.currency,
-      price: variant.price.toFixed(2),
+      price: variant.price.toFixed(currencyDigits(product.currency)),
       availability: variant.available ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       name: variant.title,
     })),
