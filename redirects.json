@@ -1,0 +1,6 @@
+[
+  { "source": "/shop", "destination": "/products" },
+  { "source": "/pages/about-us", "destination": "/about" },
+  { "source": "/collections/all", "destination": "/products" },
+  { "source": "/blogs/news/:slug", "destination": "/blog/:slug" }
+]

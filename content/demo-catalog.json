@@ -1,0 +1,318 @@
+{
+  "_comment": "Sample catalogue in HitPay API response shape. Used when no HitPay credentials are configured (CATALOG_SOURCE=auto) or CATALOG_SOURCE=demo.",
+  "categories": [
+    {
+      "id": "c0000000-0000-4000-8000-000000000001",
+      "name": "Home",
+      "description": "Pieces for everyday rituals.",
+      "is_active": true,
+      "order": 1,
+      "children": [],
+      "image": null
+    },
+    {
+      "id": "c0000000-0000-4000-8000-000000000002",
+      "name": "Apparel",
+      "description": "Soft, simple wardrobe staples.",
+      "is_active": true,
+      "order": 2,
+      "children": [],
+      "image": null
+    },
+    {
+      "id": "c0000000-0000-4000-8000-000000000003",
+      "name": "Pantry",
+      "description": "Small-batch food and drink.",
+      "is_active": true,
+      "order": 3,
+      "children": [],
+      "image": null
+    }
+  ],
+  "products": [
+    {
+      "id": "p0000000-0000-4000-8000-000000000001",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000001"
+      ],
+      "name": "Ceramic Mug",
+      "headline": null,
+      "description": "<p>A hand-glazed stoneware mug that holds 350ml. Dishwasher and microwave safe.</p>",
+      "currency": "SGD",
+      "price": 24,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": true,
+      "has_variations": true,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000901",
+          "stock_keeping_unit": null,
+          "description": "Sand",
+          "price": 24,
+          "quantity": 40,
+          "variation_value_1": "Sand",
+          "variation_value_2": null,
+          "variation_value_3": null
+        },
+        {
+          "id": "p0000000-0000-4000-8000-000000000902",
+          "stock_keeping_unit": null,
+          "description": "Charcoal",
+          "price": 24,
+          "quantity": 12,
+          "variation_value_1": "Charcoal",
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": "Colour",
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000001-img",
+          "caption": "Ceramic Mug",
+          "url": "/demo/mug.svg"
+        }
+      ],
+      "created_at": "2026-01-01T10:00:00+08:00",
+      "updated_at": "2026-01-01T10:00:00+08:00"
+    },
+    {
+      "id": "p0000000-0000-4000-8000-000000000002",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000001"
+      ],
+      "name": "Linen Tote Bag",
+      "headline": null,
+      "description": "<p>Heavyweight washed linen with an inside pocket. Fits a laptop up to 14 inches.</p>",
+      "currency": "SGD",
+      "price": 32,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": false,
+      "has_variations": false,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000903",
+          "stock_keeping_unit": null,
+          "description": null,
+          "price": 32,
+          "quantity": null,
+          "variation_value_1": null,
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": null,
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000002-img",
+          "caption": "Linen Tote Bag",
+          "url": "/demo/tote.svg"
+        }
+      ],
+      "created_at": "2026-01-02T10:00:00+08:00",
+      "updated_at": "2026-01-02T10:00:00+08:00"
+    },
+    {
+      "id": "p0000000-0000-4000-8000-000000000003",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000001"
+      ],
+      "name": "Beeswax Candle",
+      "headline": null,
+      "description": "<p>Poured by hand from pure beeswax with a cotton wick. Around 40 hours of burn time.</p>",
+      "currency": "SGD",
+      "price": 28,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": false,
+      "has_variations": true,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000904",
+          "stock_keeping_unit": null,
+          "description": "Cedar",
+          "price": 28,
+          "quantity": 20,
+          "variation_value_1": "Cedar",
+          "variation_value_2": null,
+          "variation_value_3": null
+        },
+        {
+          "id": "p0000000-0000-4000-8000-000000000905",
+          "stock_keeping_unit": null,
+          "description": "Fig",
+          "price": 30,
+          "quantity": 8,
+          "variation_value_1": "Fig",
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": "Scent",
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000003-img",
+          "caption": "Beeswax Candle",
+          "url": "/demo/candle.svg"
+        }
+      ],
+      "created_at": "2026-01-03T10:00:00+08:00",
+      "updated_at": "2026-01-03T10:00:00+08:00"
+    },
+    {
+      "id": "p0000000-0000-4000-8000-000000000004",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000002"
+      ],
+      "name": "Organic Cotton Tee",
+      "headline": null,
+      "description": "<p>Mid-weight organic cotton jersey with a relaxed fit.</p><ul><li>100% organic cotton</li><li>Pre-shrunk</li></ul>",
+      "currency": "SGD",
+      "price": 45,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": true,
+      "has_variations": true,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000906",
+          "stock_keeping_unit": null,
+          "description": "S",
+          "price": 45,
+          "quantity": 10,
+          "variation_value_1": "S",
+          "variation_value_2": null,
+          "variation_value_3": null
+        },
+        {
+          "id": "p0000000-0000-4000-8000-000000000907",
+          "stock_keeping_unit": null,
+          "description": "M",
+          "price": 45,
+          "quantity": 0,
+          "variation_value_1": "M",
+          "variation_value_2": null,
+          "variation_value_3": null
+        },
+        {
+          "id": "p0000000-0000-4000-8000-000000000908",
+          "stock_keeping_unit": null,
+          "description": "L",
+          "price": 45,
+          "quantity": 6,
+          "variation_value_1": "L",
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": "Size",
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000004-img",
+          "caption": "Organic Cotton Tee",
+          "url": "/demo/tee.svg"
+        }
+      ],
+      "created_at": "2026-01-04T10:00:00+08:00",
+      "updated_at": "2026-01-04T10:00:00+08:00"
+    },
+    {
+      "id": "p0000000-0000-4000-8000-000000000005",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000001"
+      ],
+      "name": "Dot Grid Notebook",
+      "headline": null,
+      "description": "<p>A5 lay-flat notebook with 160 pages of 100gsm dot grid paper.</p>",
+      "currency": "SGD",
+      "price": 18,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": false,
+      "has_variations": false,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000909",
+          "stock_keeping_unit": null,
+          "description": null,
+          "price": 18,
+          "quantity": null,
+          "variation_value_1": null,
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": null,
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000005-img",
+          "caption": "Dot Grid Notebook",
+          "url": "/demo/notebook.svg"
+        }
+      ],
+      "created_at": "2026-01-05T10:00:00+08:00",
+      "updated_at": "2026-01-05T10:00:00+08:00"
+    },
+    {
+      "id": "p0000000-0000-4000-8000-000000000006",
+      "category_id": [
+        "c0000000-0000-4000-8000-000000000003"
+      ],
+      "name": "House Blend Coffee",
+      "headline": null,
+      "description": "<p>Medium roast whole beans with notes of cocoa and stone fruit.</p>",
+      "currency": "SGD",
+      "price": 22,
+      "status": "published",
+      "is_published": true,
+      "is_pinned": false,
+      "has_variations": true,
+      "variations": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000910",
+          "stock_keeping_unit": null,
+          "description": "250g",
+          "price": 22,
+          "quantity": 30,
+          "variation_value_1": "250g",
+          "variation_value_2": null,
+          "variation_value_3": null
+        },
+        {
+          "id": "p0000000-0000-4000-8000-000000000911",
+          "stock_keeping_unit": null,
+          "description": "1kg",
+          "price": 68,
+          "quantity": 10,
+          "variation_value_1": "1kg",
+          "variation_value_2": null,
+          "variation_value_3": null
+        }
+      ],
+      "variation_key_1": "Size",
+      "variation_key_2": null,
+      "variation_key_3": null,
+      "images": [
+        {
+          "id": "p0000000-0000-4000-8000-000000000006-img",
+          "caption": "House Blend Coffee",
+          "url": "/demo/coffee.svg"
+        }
+      ],
+      "created_at": "2026-01-06T10:00:00+08:00",
+      "updated_at": "2026-01-06T10:00:00+08:00"
+    }
+  ]
+}
