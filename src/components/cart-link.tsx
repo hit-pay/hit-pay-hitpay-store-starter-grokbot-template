@@ -17,11 +17,12 @@ export function CartLink() {
         <path d="M9 7a3 3 0 0 1 6 0" />
       </svg>
       <span>Cart</span>
-      {count > 0 && (
-        <span className="bg-primary text-primary-foreground min-w-5 rounded-full px-1.5 text-center text-xs leading-5">
-          {count}
-        </span>
-      )}
+      <span
+        aria-hidden="true"
+        className={`bg-primary text-primary-foreground min-w-5 rounded-full px-1.5 text-center text-xs leading-5 ${count > 0 ? "" : "invisible"}`}
+      >
+        {count}
+      </span>
     </Link>
   );
 }

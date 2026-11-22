@@ -138,10 +138,11 @@ async function Connection({ searchParams }: Pick<PageProps<"/admin">, "searchPar
         <div className="space-y-3">
           <p className="text-muted-foreground text-sm">
             Sign in with your HitPay owner or admin account. The store requests these permissions:{" "}
-            {OAUTH_SCOPES.map((scope) => (
-              <code key={scope} className="mr-1">
-                {scope}
-              </code>
+            {OAUTH_SCOPES.map((scope, index) => (
+              <span key={scope}>
+                {index > 0 && ", "}
+                <code>{scope}</code>
+              </span>
             ))}
           </p>
           {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- route handler redirect, not a page */}

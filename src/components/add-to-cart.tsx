@@ -83,6 +83,7 @@ export function AddToCart({ product, locale }: Props) {
           Quantity
           <input
             type="number"
+            name="quantity"
             min={1}
             max={maxQuantity}
             value={quantity}

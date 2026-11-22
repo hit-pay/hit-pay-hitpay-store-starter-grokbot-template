@@ -23,8 +23,12 @@ export default async function CollectionsPage() {
             <li key={collection.id}>
               <Link href={`/collections/${collection.handle}`} className="group block">
                 <div className="bg-muted relative aspect-[4/3] overflow-hidden rounded-[var(--radius-brand)]">
-                  {collection.imageUrl && (
+                  {collection.imageUrl ? (
                     <Image src={collection.imageUrl} alt="" fill className="object-cover" unoptimized />
+                  ) : (
+                    <span className="font-heading text-muted-foreground flex h-full items-center justify-center p-6 text-center text-2xl">
+                      {collection.name}
+                    </span>
                   )}
                 </div>
                 <p className="font-heading mt-3 text-lg font-semibold group-hover:underline">{collection.name}</p>
